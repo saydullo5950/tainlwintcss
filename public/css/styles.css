@@ -536,12 +536,11 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
-.-mx-10{
-  margin-left: -2.5rem;
-  margin-right: -2.5rem;
-}
 .ml-auto{
   margin-left: auto;
+}
+.mr-auto{
+  margin-right: auto;
 }
 .mt-10{
   margin-top: 2.5rem;
@@ -578,9 +577,6 @@ video {
 }
 .mt-auto{
   margin-top: auto;
-}
-.mr-auto{
-  margin-right: auto;
 }
 .inline-block{
   display: inline-block;
@@ -620,9 +616,6 @@ video {
 .h-60{
   height: 15rem;
 }
-.h-56{
-  height: 14rem;
-}
 .h-full{
   height: 100%;
 }
@@ -646,6 +639,9 @@ video {
 }
 .max-w-7xl{
   max-width: 80rem;
+}
+.max-w-1{
+  max-width: 0.25rem;
 }
 .flex-1{
   flex: 1 1 0%;
@@ -807,19 +803,8 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.bg-gray-300{
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
-}
 .bg-none{
   background-image: none;
-}
-.object-cover{
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.p-10{
-  padding: 2.5rem;
 }
 .p-2{
   padding: 0.5rem;
@@ -902,6 +887,26 @@ video {
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+.px-26{
+  padding-left: 104px;
+  padding-right: 104px;
+}
+.px-24{
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+.px-20{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.px-19{
+  padding-left: 76px;
+  padding-right: 76px;
+}
+.px-16{
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 .pb-6{
   padding-bottom: 1.5rem;
@@ -1197,12 +1202,12 @@ video {
     padding-bottom: 12rem;
   }
 
-  .sm\:pt-10{
-    padding-top: 2.5rem;
-  }
-
   .sm\:pb-6{
     padding-bottom: 1.5rem;
+  }
+
+  .sm\:pt-10{
+    padding-top: 2.5rem;
   }
 
   .sm\:text-3xl\/9{
@@ -1241,14 +1246,14 @@ video {
     position: absolute;
   }
 
-  .md\:mx-auto{
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .md\:mx-0{
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .md\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .md\:mt-16{
@@ -1261,14 +1266,6 @@ video {
 
   .md\:hidden{
     display: none;
-  }
-
-  .md\:h-full{
-    height: 100%;
-  }
-
-  .md\:w-1\/2{
-    width: 50%;
   }
 
   .md\:max-w-168{

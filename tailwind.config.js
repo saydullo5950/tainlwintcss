@@ -24,7 +24,8 @@ module.exports = {
       padding: {
         13: "52px",
         19: "76px",
-        30: "120px"
+        30: "120px",
+        26: "104px",
       },
       maxWidth: {
         168: "672px"
